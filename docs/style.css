@@ -1193,6 +1193,36 @@ body { min-height: 100vh; }
 .footer-link-btn:hover { border-color: var(--wood); }
 
 /* ============================================================================
+   AD BANNER (PR)
+   ============================================================================ */
+.ad-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 48px;
+  padding: 28px 24px;
+  border-top: var(--hairline-soft);
+  text-align: center;
+}
+.ad-banner-pr {
+  border: 0.5px solid var(--rule);
+  padding: 2px 8px;
+}
+.ad-banner-copy {
+  font-family: var(--jp-serif);
+  font-size: 13px;
+  color: var(--ink-soft);
+  margin: 0;
+}
+.ad-banner-link img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 0.5px solid var(--rule);
+}
+
+/* ============================================================================
    FOOTER
    ============================================================================ */
 .site-footer {
