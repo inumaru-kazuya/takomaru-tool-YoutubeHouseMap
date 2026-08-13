@@ -346,6 +346,49 @@
           ]
         }
       ]
+    },
+    {
+      "id": "CAT-04",
+      "name": "タコまるチャンネル",
+      "order": 4,
+      "side": "mixed",
+      "groups": [
+        {
+          "id": "GRP-H",
+          "name": "家づくりの記録",
+          "order": 1,
+          "genres": [
+            {
+              "id": "GNR-23",
+              "name": "検討・準備",
+              "order": 1,
+              "searchQuery": "タコまるの家づくりのツボ 検討 準備",
+              "searchQueryAlt": "注文住宅 施主 検討記録"
+            },
+            {
+              "id": "GNR-24",
+              "name": "こだわりポイント",
+              "order": 2,
+              "searchQuery": "タコまるの家づくりのツボ こだわり",
+              "searchQueryAlt": "注文住宅 施主 こだわり 体験談"
+            }
+          ]
+        },
+        {
+          "id": "GRP-I",
+          "name": "資金のリアル",
+          "order": 2,
+          "genres": [
+            {
+              "id": "GNR-25",
+              "name": "予算・コスト実例",
+              "order": 1,
+              "searchQuery": "タコまるの家づくりのツボ 予算 コスト",
+              "searchQueryAlt": "注文住宅 施主 予算 リアル"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
